@@ -17,6 +17,7 @@ function onFormInput(evt) {
 
 function onFormSubmit(evt) {
     evt.preventDefault();
+    console.log(formData)
     evt.target.reset();
     localStorage.removeItem(KEY_STORAGE)
 }
